@@ -2107,6 +2107,17 @@
         <p class="text-zinc-500 mt-2">Streamlined referral process for NDIS and Private clients</p>
       </div>
 
+      <!-- Temporary referral intake notice: online form disabled -->
+      <div id="referral-temporary-notice" class="bg-white border border-amber-200 rounded-2xl shadow-sm p-8 text-center max-w-2xl mx-auto" role="status">
+        <h2 class="text-xl font-bold text-zinc-800 mb-4">Online Referral Form Temporarily Unavailable</h2>
+        <p class="text-zinc-600 mb-4">Our online referral form is temporarily unavailable. Please send all referrals directly to our email address:</p>
+        <a class="text-emerald-700 font-bold underline break-all" href="mailto:office@horizonscc.com.au">office@horizonscc.com.au</a>
+        <p class="text-zinc-500 mt-4">We apologise for any inconvenience.</p>
+      </div>
+      <style>
+        #view-referral > div > :not(:first-child):not(#referral-temporary-notice) { display: none !important; }
+      </style>
+
       <!-- FORM ERROR BOX -->
       <div id="form-error-box"
         class="hidden mb-6 bg-rose-50 border border-rose-200 text-rose-800 p-4 rounded-xl text-sm font-semibold flex items-start gap-3 shadow-sm animate-fade-in">
